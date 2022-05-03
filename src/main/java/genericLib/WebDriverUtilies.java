@@ -24,6 +24,8 @@ public void doubleClick(WebDriver driver,WebElement ele) {
 	Actions a=new Actions(driver);
 	a.doubleClick(ele).perform();
 	
+	System.out.println("hello");
+	
 }
 
 public void draganddrop(WebDriver driver,WebElement source,WebElement target) {
