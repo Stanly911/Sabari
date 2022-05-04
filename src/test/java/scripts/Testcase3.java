@@ -24,7 +24,7 @@ public class Testcase3 extends BaseClass{
 	AddtowishlistPage a=new AddtowishlistPage(driver);
 	driverUtilies.switchFrames(driver);
 	a.playButton();
-	Thread.sleep(10000);
+
 	a.pausebutton();
 	driverUtilies.switchBackFrame(driver);
 	a.addtowishlistbtn();
